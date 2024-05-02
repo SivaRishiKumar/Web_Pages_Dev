@@ -1,0 +1,129 @@
+nav{
+    margin-left: 800px;
+    margin-right: 200px;
+}
+.ntr {
+
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+
+}
+#kan{
+text-decoration: none;
+border: 1px solid black;
+padding-left: 30px;
+border-top: none;
+border-bottom: none;
+border-right: none;
+font-size: 20px;
+
+}
+#back{
+height: 400px;
+background-color:  #E2E2E2;
+/* font-size: 40px; */
+}
+
+
+#mahi{
+text-decoration: none;
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+
+} 
+/* .saw{
+height: 1000px;
+width: 70%;
+background-color: white;
+position: absolute;
+top: 500px;
+left: -500px;
+
+} */
+#pranam{
+border: none;
+padding: 10px;
+
+}
+.pallavi{
+padding: 5px;
+height: 100px;
+width: 80%;
+background-color: black;
+position: absolute;
+top: 300px;
+left: -600px;
+border-radius: 20px;
+
+}
+#second{
+background-color: white;
+height: 1000px; 
+width: 80.5%;
+border: none;
+position: absolute;
+top: 396px;
+left: 200px;
+/* border-radius: 10px; */
+}
+.kho{
+position: relative;
+top: 50px;
+left: 60px;
+width: 1400px;
+
+}
+#line{
+width: 1150px;
+height: 30px;
+background-color: rgb(244, 240, 240);
+position: absolute;
+top: 285px;
+left: 380px;
+}
+.template{
+    height: 400px;
+    width: 500px;
+    border: 1px solid;
+    position: relative;
+    top: 100px;
+}
+.template:hover{
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: white;
+    opacity: 30%;
+    color: blue;
+    /* content: ""; */
+}
+#line1{
+    
+        width: 680px;
+        height: 30px;
+        background-color: rgb(244, 240, 240);
+        position: absolute;
+        top: 820px;
+        left: 420px;
+    }
+
+/* .class:hover{
+    display: ruby-text;
+} */
+
+.tom{
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 900px;
+}
+.tom h3{
+    font-size: 25px;
+    font-weight: normal;
+    backface-visibility: visible;
+    transition: 1s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    background-color: rgb(13, 48, 66);
+}
+

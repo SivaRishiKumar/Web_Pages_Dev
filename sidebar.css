@@ -1,0 +1,28 @@
+aside{
+  /* display: none; */
+}
+
+div{
+    border: 2px solid;
+    width: 10%;
+    height: 413px;
+    background-color: blueviolet;
+}
+div ol{
+    list-style: none;
+    padding: 0%;
+    align-items: center;
+}
+div ol li{
+    border-bottom: 2px solid;
+    padding: 30px;
+    align-items: center;
+   
+}
+
+button{
+    position: absolute;
+    left: 13%;
+    top: 40px;
+    height: 50px;
+}

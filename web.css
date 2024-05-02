@@ -1,0 +1,50 @@
+
+div::first-letter{
+    color: red;
+    font-size: 30px;
+    
+}
+
+input{
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+}
+button{
+    font-size: larger;
+    color: rgb(22, 243, 22);
+    background-color: rgb(30, 55, 30);
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;  
+}
+img{
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+}
+body{
+    margin: 200px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+a{
+    color: white;
+}
+/* h3{
+    color: white;
+      margin-left: 850px;
+      margin-top: -700px;
+}
+h5{
+    color: white;
+      margin-left: 850px;
+      margin-top: -1400px; 
+} */
+/* div div{
+color: white;
+margin-left: 850px;
+margin-top: -700px;
+} */
+
+

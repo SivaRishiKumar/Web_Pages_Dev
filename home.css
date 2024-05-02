@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+     margin: 0%;
+ }
+ .nav{
+     height: 100px;
+     width: 100%;
+     background-color: rgb(41, 41, 145);
+    
+ }
+ #project_name::first-letter{
+     font-size: 60px;
+     color: rgb(255, 85, 24);
+ }
+ #project_name{
+     color: aliceblue;
+     position: absolute;
+     top: 15px;
+     font-style: oblique;
+     left: 110px;
+     font-size: 50px;
+ }
+ #project_name1::first-letter{
+     font-size: 60px;
+     color: rgb(255, 85, 24);
+ }
+ #project_name1{
+     color: rgb(189, 92, 157);
+     position: absolute;
+     top: 30px;
+     font-style: oblique;
+     left: 110px;
+     font-size: 50px;
+     
+ }
+ 
+ /* ********************************************** */
+ .drop{
+     list-style: none;
+     /* background: #22438c; */
+ }
+ ul li{
+     display: inline-block;
+     position: relative;
+ }
+ ul li a{
+     display: block;
+     padding: 20px 25px;
+     border-bottom: 1px solid;
+     text-align: center;
+     color: #fff;
+     text-decoration: none;
+     font-size: 20px;
+ }
+ ul li ul.dropdown li{
+     display: block;
+     
+ }
+ ul li ul.dropdown li{
+     margin: 0%;
+     
+ }
+ ul li ul.dropdown{
+     width: 100%;
+     background-color: #292598;
+     z-index: 999;
+     display: none;
+     
+ }
+ ul li a:hover{
+     background: #112c66;
+ }
+ ul li:hover ul.dropdown{
+     display: block;
+ }
+ .nav2 {
+     width: 70%;
+     height: 100px;
+     /* border: 1px solid white; */
+     position: absolute;
+     top: 35px;
+     left: 500px;
+ }
+ .nav2 ul li{
+     color: white;
+     margin-left: 20px;
+     font-size: 25px;
+     padding: 10px;
+ }
+  .nav2 ul li:hover{
+     color: rgb(6, 4, 4);
+     border-radius: 20px;
+ }  
+ 
+ 
+ 
+ /* ******************************************* */
+ #login{
+     width: 500px;
+     height: 700px;
+     border: 2px solid;
+    background-color: aqua;
+      position: absolute;
+     left: 35%;
+     top: 19%;
+     visibility: hidden; 
+ }
+ .box{
+     width: 480px;
+     height: 680px;
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     background-color: white;
+     border: 1px solid;
+ } 

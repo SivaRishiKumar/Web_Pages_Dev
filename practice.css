@@ -1,0 +1,228 @@
+nav{
+        margin-left: 800px;
+        margin-right: 200px;
+}
+.ntr {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#kan{
+    text-decoration: none;
+    border: 1px solid black;
+    padding-left: 30px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 20px;
+   
+}
+#back{
+    height: 400px;
+    background-color:  #E2E2E2;
+    /* font-size: 40px; */
+}
+ 
+
+#mahi{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+} 
+/* .saw{
+    height: 1000px;
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    left: -500px;
+    
+} */
+#pranam{
+    border: none;
+    padding: 10px;
+   
+}
+.pallavi{
+    padding: 5px;
+    height: 100px;
+    width: 80%;
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    left: -600px;
+    border-radius: 20px;
+
+}
+#second{
+    background-color: white;
+    height: 1000px; 
+    width: 80.5%;
+    border: none;
+    position: absolute;
+    top: 396px;
+    left: 200px;
+    /* border-radius: 10px; */
+}
+.kho{
+    position: relative;
+    top: 50px;
+    left: 60px;
+    width: 1400px;
+    
+}
+#line{
+    width: 480px;
+    height: 30px;
+    background-color: rgb(244, 240, 240);
+    position: absolute;
+    top: 285px;
+    left: 420px;
+}
+#twitter{
+    height: 30px;
+    width: 50px;
+    border: 1px solid;
+    position: absolute;
+    top: 380px;
+    left: 200px;
+    padding: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-radius: 10px;
+    color: black;
+}
+#twitter:hover{
+    background-color: rgb(0, 183, 255);
+}
+.facebook{
+    font-size: 50px;
+    /* color: rgb(19, 28, 154); */
+    border: 1px solid;
+    position: absolute;
+    top: 345px;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
+.facebook:hover{
+    background-color: rgb(13, 13, 159);
+    color: azure;
+}
+#yahoo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+}
+#yahoo:hover{
+    background-color: orangered;
+}
+#reddi{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 380px;
+    left: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+}
+#reddi:hover{
+    background-color: rgb(193, 223, 241);
+}
+#google{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 380px;
+    left: 400px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+}
+#google:hover{
+    background-color: orangered;
+}
+#demo1::marker{
+    content: "✍️";
+}
+#demo2::marker{
+    content: "📑";
+}
+#demo3::marker{
+    content: "📰";
+}
+#demo4::marker{
+    content: "🌓";
+}
+#demo5::marker{
+    content: "🏳️‍🌈";
+}
+#demo6::marker{
+    content: "💳";
+}
+#demo7::marker{
+    content: "🗓️";
+}
+#list{
+    position: absolute;
+    top: 730px;
+    left: 800px;
+    font-size: 25px;
+    line-height: 75px;
+}
+.download{
+    text-decoration: none;
+    color: #B06A00;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: #F5C703;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    border-radius: 10px;
+    position: absolute;
+    top: 1380px;
+    left: 200px;
+}
+.livedemo{
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: #8CBD2E;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 1380px;
+    left: 700px;
+}

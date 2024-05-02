@@ -1,0 +1,219 @@
+
+ol{
+    border: 2px solid;
+    padding: 0%;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    list-style: none;
+    display: flex;
+    /* text-decoration: none; */
+    box-sizing: border-box;
+    margin-top: 5px;
+    
+}
+h1{
+    margin-left: 60px;
+    font-size: 40px;
+}
+li{
+    border: none;
+    padding: 40px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+#frooti{
+    border: 2px solid;
+    height: 0px;
+    width: 150px;
+    /* color: white; */
+    background-color: rgb(66, 66, 240);
+    border-radius: 20px;
+    padding: 20px;
+    padding-right: 5px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+   
+    margin-top: 10px;
+    margin-left: 600px;
+}
+#mass{
+     /* background-image: url("https://mobirise.com/extensions/coworkingamp/conference_room/assets/images/9.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 87%;
+    height: 70vh;
+    align-items: center;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+/* div{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 200px; 
+} */
+h2{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 700px;
+    font-size: 35px;
+    font-family: 'Jost',sans-serif;
+}
+#ntr{
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    font-size: 60px;
+    font-family: 'Jost',sans-serif;
+}
+#ntr1{
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 400px;
+    font-size: 60px; 
+    font-family: 'Jost',sans-serif;
+}
+#ntr2{
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 650px;
+    font-size: 25px;
+    font-family: 'Jost',sans-serif;
+}
+.ntr3{
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    font-size: 25px;
+    font-family: 'Jost',sans-serif;
+}
+.ntr4{
+    border: none;
+    box-sizing: border-box;
+    background-color: rgb(105, 105, 220);
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    color: azure;
+    position: absolute;
+    top: 700px;
+    left: 850px;
+}
+#img{
+    width: 10%;
+    height: 100px;
+    margin-left: 150px;
+}
+iframe{
+    position: absolute;
+    top: 1150px;
+    left: 1000px;
+    width: 750px;
+    height: 400px;
+
+}
+div{
+     border: 2px solid;
+    height: 250px;
+    width: 100px;
+    /* display: inline-block; */
+    margin: 100px; 
+    background-color: aqua; 
+    transition-duration: 2s;
+    z-index: 9;
+    transform: translateY(-100px);
+   
+}
+div:hover{
+    /* transform: scale(1,2);
+    transform: scaleX(2,1); */
+    transform: translateX(100px); 
+    opacity: 2px;
+       
+}
+#abhi{
+    border: 2px solid;
+    height: 250px;
+    width: 100px;
+    margin: 100px; 
+    background-color: aqua; 
+    transition: 1s;
+    /* z-index: 9; */
+    transform: translateX(100px);
+    
+   
+}
+#abhi:hover{
+    transform: translateY(-100px); 
+    /* transform: translateY(100px);     */
+    opacity: 2px;
+    
+}
+/* .siva{
+    border: 2px solid;
+    height: 250px;
+    width: 100px;
+    margin: 100px; 
+    background-color: aqua; 
+    transition: 1s;
+     z-index: 9; 
+     transform: translateX(100px);  
+}
+.siva:hover{
+    transform: translateY(-100px);
+} */
+#ram1{
+    border: 2px solid;
+    height: 250px;
+    width: 100px;
+    margin: 100px; 
+    background-color: aqua; 
+    transition: 1s;
+     z-index: 9;  
+    transform: translateX(100px);
+}
+#ram1:hover{
+    transform: translateY(-100px);
+
+}
+.ram{
+    border: 2px solid;
+    height: 250px;
+    width: 100px;
+    margin: 100px; 
+    background-color: aqua; 
+    transition: 1s;
+     /* z-index: 9;   */
+    transform: translateX(100px);
+}
+.ram:hover{
+    transform: translateY(-100px);
+
+}
+
+
+
+
+
+
+
+
+
+
+

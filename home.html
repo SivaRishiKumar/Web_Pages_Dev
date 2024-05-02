@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <script>
+        function jaya(){
+          let login = document.getElementById("login");
+            login.style.visibility = "visible"
+    
+        }
+        function jaya1(){
+          let login = document.getElementById("login");
+            login.style.visibility = "hidden"
+           
+    
+        }
+    </script>
+        <img style="height: 900px;position: absolute;top: 100px;width: 100%; background-attachment: scroll;background-color: aliceblue;" src="https://img.freepik.com/free-photo/tasty-pizza-near-ingredients_23-2147772080.jpg?w=996&t=st=1703095875~exp=1703096475~hmac=4f37153524449cec28ebb86d41c1a93a3531da72043435a0c69b2a98fa676dbd" alt="">
+
+    <div class="nav">
+        <h1 id="project_name">Ruchi's.org</h1>
+        <div class="nav2">
+            <ul class="drop1">
+                <li>Home
+                    <ul class="dropdown">
+                        <li><a href="./register.html">User Registration</a></li>
+                        <li><a href="./register.html">Hotel Registration</a></li>
+                        <li><a href="">Admin Login</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </li>
+                <li onclick="jaya()">User Login</li>
+                <li onclick="jaya()">Hotel Login</li>
+                <li>Complaints</li>
+                <li>Contact us</li> 
+           <!-- <span> <li>Home</li></span>
+            <span onclick="jaya()">Student Login</span>
+            <span><a href="">Teacher Login</a></span>
+            <span><a href="">Deposite Fees</a></span>
+            <span><a href="">Complaints</a></span>
+            <span><a href="">Contact us</a></span> --> 
+        </ul>
+    </div>
+    </div>
+    <div id="login" >
+        <div class="box">
+            <span onclick="jaya1()"  style="border: 1px solid;padding: 7px;position: absolute;left: 92%;top: 20px;">X</span>
+            <h1 id="project_name1">Ruchi's.org</h1>
+            <h1 style="position: absolute;left:100px ;top: 150px;">Login Your Account</h1>
+            <form action="" method="post">
+               
+             <input style="position: absolute;left:50px ;top: 250px;height: 50px;width: 80%;font-size: 20px;" type="email" placeholder="Enter The Email">
+            <input style="position: absolute;left:50px ;top: 330px;height: 50px;width: 80%;font-size: 20px;" type="password" placeholder="Enter The Password">
+            <button style="position: absolute;left:50px ;top: 430px;height: 50px;width: 80%;font-size: 20px;background-color: black;border-radius: 30px;color: aliceblue;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <footer style="height: 100px;width: 100%; background-color: rgb(16, 20, 20);position: fixed;top: 750px;"><button style="position: absolute;left:50px ;top: 430px;height: 50px;width: 80%;font-size: 20px;background-color: black;color: aliceblue;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Submit</button></footer>
+</body>
+</html> 
